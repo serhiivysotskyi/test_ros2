@@ -10,75 +10,33 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-22.04]
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up ROS2 Iron
+    - name: Set up Docker
+      uses: docker/setup-buildx-action@v2
+
+    - name: Build Docker image
       run: |
-        sudo apt update
-        sudo apt install -y curl gnupg2 lsb-release
-        sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key | sudo apt-key add -
-        sudo sh -c 'echo "deb http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
-        sudo apt update
-        sudo apt install -y ros-iron-ros-base python3-vcstool python3-colcon-common-extensions python3-rosdep
+        docker build -t ros2-iron-builder .
 
-    - name: Add PPA for additional packages
+    - name: Run Docker container
       run: |
-        sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-        sudo apt update
+        docker run --name ros2-iron-builder-container ros2-iron-builder
 
-    - name: Initialize rosdep
+    - name: Create directory for deb package
       run: |
-        sudo rosdep init
-        rosdep update
+        mkdir -p ./deb-packages
 
-    - name: Set up ROS2 workspace and import packages
+    - name: Copy deb package from Docker container
       run: |
-        source /opt/ros/iron/setup.bash
-        mkdir -p ~/ros2_ws/src
-        cp source.repos ~/ros2_ws/
-        cd ~/ros2_ws
-        vcs import src < source.repos
-        sudo apt-get install -y libceres-dev || echo "libceres-dev not available"
-        sudo apt-get install -y ros-iron-slam-toolbox || echo "ros-iron-slam-toolbox not available"
-        rosdep install --from-paths src --ignore-src -r -y
+        docker cp ros2-iron-builder-container:/output/ros2_iron_packages.deb ./deb-packages/ros2_iron_packages.deb
 
-    - name: Build ROS2 packages
-      run: |
-        source /opt/ros/iron/setup.bash
-        cd ~/ros2_ws
-        colcon build
-
-    - name: Create deb package
-      run: |
-        cd ~/ros2_ws
-        mkdir -p ~/ros2_deb_package/DEBIAN
-        echo "Package: ros2-iron-packages" > ~/ros2_deb_package/DEBIAN/control
-        echo "Version: 1.0" >> ~/ros2_deb_package/DEBIAN/control
-        echo "Section: base" >> ~/ros2_deb_package/DEBIAN/control
-        echo "Priority: optional" >> ~/ros2_deb_package/DEBIAN/control
-        echo "Architecture: $(dpkg --print-architecture)" >> ~/ros2_deb_package/DEBIAN/control
-        echo "Maintainer: Your Name <your.email@example.com>" >> ~/ros2_deb_package/DEBIAN/control
-        echo "Description: ROS2 Iron packages" >> ~/ros2_deb_package/DEBIAN/control
-        mkdir -p ~/ros2_deb_package/opt/ros2_ws
-        cp -r install/* ~/ros2_deb_package/opt/ros2_ws/
-        dpkg-deb --build ~/ros2_deb_package
-        mv ~/ros2_deb_package.deb ros2-iron-packages-${{ matrix.os }}.deb
-
-    - name: Create folder for deb packages if not exists
-      run: mkdir -p ./deb-packages/${{ matrix.os }}
-
-    - name: Move deb packages to folder
-      run: mv ros2-iron-packages-${{ matrix.os }}.deb ./deb-packages/${{ matrix.os }}/
-
-    - name: Upload deb packages folder
+    - name: Upload deb package
       uses: actions/upload-artifact@v2
       with:
-        name: deb-packages-${{ matrix.os }}
-        path: ./deb-packages/${{ matrix.os }}/
+        name: ros2-iron-packages
+        path: ./deb-packages/ros2_iron_packages.deb
