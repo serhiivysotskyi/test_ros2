@@ -35,8 +35,8 @@ jobs:
         cp source.repos ~/ros2_ws/
         cd ~/ros2_ws
         vcs import src < source.repos
-        sudo rosdep init
-        rosdep update
+        sudo apt-get install -y libceres-dev || echo "libceres-dev not available"
+        sudo apt-get install -y ros-iron-slam-toolbox || echo "ros-iron-slam-toolbox not available"
         rosdep install --from-paths src --ignore-src -r -y
 
     - name: Build ROS2 packages
