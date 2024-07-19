@@ -16,8 +16,6 @@ RUN apt-get update && \
     ros-iron-slam-toolbox \
     && rm -rf /var/lib/apt/lists/*
 
-# Initialize rosdep
-RUN rosdep init && rosdep update
 
 # Set up the workspace
 RUN mkdir -p /ros2_ws/src
