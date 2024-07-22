@@ -1,5 +1,4 @@
 name: Build ROS Deb
-run-name: ${{ github.actor }} is testing out building Debs from ROS package 🚀
 on:
   push:
     branches:
