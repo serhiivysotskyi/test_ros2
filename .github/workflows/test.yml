@@ -1,42 +1,33 @@
-name: Build and Package ROS2 Iron Packages
-
+name: Build ROS Deb
+run-name: ${{ github.actor }} is testing out building Debs from ROS package 🚀
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
+      - master
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  build-ros-deb:
+    runs-on: ubuntu-22.04
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Install curl
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl tree
 
-    - name: Set up Docker
-      uses: docker/setup-buildx-action@v2
+      - name: Build ROS Deb
+        uses: jspricke/ros-deb-builder-action@main
+        with:
+          DEB_DISTRO: jammy
+          ROS_DISTRO: iron
+          REPOS_FILE: https://raw.githubusercontent.com/serhiivysotskyi/test_ros2/main/sources.repos
+          GITHUB_TOKEN: ${{ secrets.SERHII_GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
 
-    - name: Build Docker image
-      run: |
-        docker build -t ros2-iron-builder .
-
-    - name: Run Docker container
-      run: |
-        docker run --name ros2-iron-builder-container ros2-iron-builder
-
-    - name: Create directory for deb package
-      run: |
-        mkdir -p ./deb-packages
-
-    - name: Copy deb package from Docker container
-      run: |
-        docker cp ros2-iron-builder-container:/output/ros2_iron_packages.deb ./deb-packages/ros2_iron_packages.deb
-
-    - name: Upload deb package
-      uses: actions/upload-artifact@v2
-      with:
-        name: ros2-iron-packages
-        path: ./deb-packages/ros2_iron_packages.deb
+      # - shell: bash
+      #   env:
+      #     NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
+      #     NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
+      #   run: |
+      #     tree;
+      #     deb_file=$(find . -name "*.deb");
+      #     curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@$deb_file" "";
