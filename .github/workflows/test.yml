@@ -2,9 +2,13 @@ name: Build ROS Deb
 on:
   push:
     branches:
-      - master
+      - main
+  pull_request:
+    branches:
+      - main
+
 jobs:
-  build-ros-deb:
+  build:
     runs-on: ubuntu-22.04
 
     steps:
