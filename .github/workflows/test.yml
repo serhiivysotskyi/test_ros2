@@ -22,7 +22,7 @@ jobs:
         with:
           DEB_DISTRO: jammy
           ROS_DISTRO: iron
-          REPOS_FILE: https://raw.githubusercontent.com/serhiivysotskyi/test_ros2/main/sources.repos
+          REPOS_FILE: https://raw.githubusercontent.com/serhiivysotskyi/test_ros2/main/source.repos
           GITHUB_TOKEN: ${{ secrets.SERHII_GITHUB_TOKEN }}
           SQUASH_HISTORY: true
 
