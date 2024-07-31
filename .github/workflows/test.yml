@@ -1,14 +1,11 @@
 name: Build ROS Deb
+run-name: ${{ github.actor }} is testing out building Debs from ROS package 🚀
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
-
 jobs:
-  build:
+  build-ros-deb:
     runs-on: ubuntu-22.04
 
     steps:
@@ -26,11 +23,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SERHII_GITHUB_TOKEN }}
           SQUASH_HISTORY: true
 
-       - shell: bash
-         env:
-           NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
-           NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
-         run: |
-           tree;
-           deb_file=$(find . -name "*.deb");
-           curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@$deb_file" "http://13.60.79.193:8080/repository/test_ros2";
+      - shell: bash
+        env:
+          NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
+          NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
+        run: |
+          tree;
+          deb_file=$(find . -name "*.deb");
+          curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@$deb_file" "http://13.60.79.193:8080/repository/test_ros2";
