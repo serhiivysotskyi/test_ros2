@@ -1,5 +1,5 @@
 Source: test_ros2
-Section: latest
+Section: release-13.1.2
 Priority: optional
 Maintainer: Serhii Vysotskyi <test@gtest.com>
 Build-Depends: debhelper (>= 9)
