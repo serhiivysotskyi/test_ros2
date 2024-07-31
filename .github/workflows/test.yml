@@ -30,4 +30,4 @@ jobs:
         run: |
           tree;
           deb_file=$(find . -name "*.deb");
-          curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@$deb_file" "http://13.60.79.193:8080/repository/test_ros2";
+          curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@./$deb_file" "http://13.60.79.193:8080/repository/test-ros2/";
