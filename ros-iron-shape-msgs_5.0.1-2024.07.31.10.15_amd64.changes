@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-shape-msgs
+Binary: ros-iron-shape-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.10.15
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-shape-msgs - A package containing some message definitions which describe geom
+Changes:
+ ros-iron-shape-msgs (5.0.1-2024.07.31.10.15) jammy; urgency=high
+Checksums-Sha1:
+ eff546b615fe6e370355d5b23962886e5d9dd777 415588 ros-iron-shape-msgs-dbgsym_5.0.1-2024.07.31.10.15_amd64.ddeb
+ edbf2cfc8e1c898e9ad4b98ba40c97f8d69153cc 14813 ros-iron-shape-msgs_5.0.1-2024.07.31.10.15_amd64.buildinfo
+ 4220ef19a37d4b0ecb68497c09dc29b6bc961ed2 75970 ros-iron-shape-msgs_5.0.1-2024.07.31.10.15_amd64.deb
+Checksums-Sha256:
+ f27dda5ea309f1ad93a8147204b55ef24ea5eef6b69fc98cc1c9d06b4629cb59 415588 ros-iron-shape-msgs-dbgsym_5.0.1-2024.07.31.10.15_amd64.ddeb
+ f8c7229c37399b1fd618b2ade3829b65d4747489b4bf90cfb44d810fbf177c86 14813 ros-iron-shape-msgs_5.0.1-2024.07.31.10.15_amd64.buildinfo
+ 2e7f13f0c55636bf0810465af1c1e8a8f630f24006979ef81d81da3387c652b8 75970 ros-iron-shape-msgs_5.0.1-2024.07.31.10.15_amd64.deb
+Files:
+ caa36b2410f556102692d18dd2e5aa4a 415588 debug optional ros-iron-shape-msgs-dbgsym_5.0.1-2024.07.31.10.15_amd64.ddeb
+ e6e8967e4610b8fd5cb7fe76c0054d18 14813 misc optional ros-iron-shape-msgs_5.0.1-2024.07.31.10.15_amd64.buildinfo
+ 86248ec9acacb892b2de4c38336fc413 75970 misc optional ros-iron-shape-msgs_5.0.1-2024.07.31.10.15_amd64.deb

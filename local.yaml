@@ -1,0 +1,39 @@
+common_interfaces:
+  ubuntu:
+  - ros-iron-common-interfaces
+sensor_msgs_py:
+  ubuntu:
+  - ros-iron-sensor-msgs-py
+std_msgs:
+  ubuntu:
+  - ros-iron-std-msgs
+actionlib_msgs:
+  ubuntu:
+  - ros-iron-actionlib-msgs
+geometry_msgs:
+  ubuntu:
+  - ros-iron-geometry-msgs
+diagnostic_msgs:
+  ubuntu:
+  - ros-iron-diagnostic-msgs
+nav_msgs:
+  ubuntu:
+  - ros-iron-nav-msgs
+sensor_msgs:
+  ubuntu:
+  - ros-iron-sensor-msgs
+shape_msgs:
+  ubuntu:
+  - ros-iron-shape-msgs
+std_srvs:
+  ubuntu:
+  - ros-iron-std-srvs
+stereo_msgs:
+  ubuntu:
+  - ros-iron-stereo-msgs
+trajectory_msgs:
+  ubuntu:
+  - ros-iron-trajectory-msgs
+visualization_msgs:
+  ubuntu:
+  - ros-iron-visualization-msgs

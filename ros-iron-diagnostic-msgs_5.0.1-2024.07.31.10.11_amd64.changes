@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-diagnostic-msgs
+Binary: ros-iron-diagnostic-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.10.11
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-diagnostic-msgs - A package containing some diagnostics related message and service
+Changes:
+ ros-iron-diagnostic-msgs (5.0.1-2024.07.31.10.11) jammy; urgency=high
+Checksums-Sha1:
+ edab0e6c2d92c708ba071353c113b43431b3a25b 1006180 ros-iron-diagnostic-msgs-dbgsym_5.0.1-2024.07.31.10.11_amd64.ddeb
+ 9e706965731fdecf243db1bae110672ebe26eb9c 14864 ros-iron-diagnostic-msgs_5.0.1-2024.07.31.10.11_amd64.buildinfo
+ d9e7f6fe82fae581bfc977cb3917d332313a5674 131170 ros-iron-diagnostic-msgs_5.0.1-2024.07.31.10.11_amd64.deb
+Checksums-Sha256:
+ c75c3b7ca4b487f0e276917d1419e816244290727f4147d792329f093bc27edb 1006180 ros-iron-diagnostic-msgs-dbgsym_5.0.1-2024.07.31.10.11_amd64.ddeb
+ a0f299cf3ce558d42ca57cca97c86eda7292b43a26380b7bab024cef9bb59b60 14864 ros-iron-diagnostic-msgs_5.0.1-2024.07.31.10.11_amd64.buildinfo
+ 9a86a01d797e70debbaad420ffd2e153bb26d1f87b1749fc36b88b949bda9894 131170 ros-iron-diagnostic-msgs_5.0.1-2024.07.31.10.11_amd64.deb
+Files:
+ c775578c76f9d9c6397a4511e12d9959 1006180 debug optional ros-iron-diagnostic-msgs-dbgsym_5.0.1-2024.07.31.10.11_amd64.ddeb
+ e703f6213f8dbaecdfbbfe1861f11856 14864 misc optional ros-iron-diagnostic-msgs_5.0.1-2024.07.31.10.11_amd64.buildinfo
+ 2467a26d4136717f37351c020c6506f4 131170 misc optional ros-iron-diagnostic-msgs_5.0.1-2024.07.31.10.11_amd64.deb

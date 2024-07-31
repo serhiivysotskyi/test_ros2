@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-geometry-msgs
+Binary: ros-iron-geometry-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.10.09
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-geometry-msgs - A package containing some geometry related message definitions.
+Changes:
+ ros-iron-geometry-msgs (5.0.1-2024.07.31.10.09) jammy; urgency=high
+ .
+   * Create new messages with all fields needed to define a velocity and transform it  (#240 <https://github.com/ros2/common_interfaces/issues/240>) (#250 <https://github.com/ros2/common_interfaces/issues/250>)
+     Co-authored-by: Dr. Denis <mailto:denis@stoglrobotics.de>
+     Co-authored-by: Addisu Z. Taddese <mailto:addisuzt@intrinsic.ai>
+     Co-authored-by: Tully Foote <mailto:tullyfoote@intrinsic.ai>
+     (cherry picked from commit 74137fc6971ac7d6420248b4394cca977fb5a887)
+     Co-authored-by: Alejandro Hernández Cordero <mailto:alejandro@openrobotics.org>
+   * Contributors: mergify[bot]
+Checksums-Sha1:
+ 71840112cae5257eecf6c5d7492afee1efa32042 2067984 ros-iron-geometry-msgs-dbgsym_5.0.1-2024.07.31.10.09_amd64.ddeb
+ 60a095415cadfea418a35f7531c183d194aabf4f 14794 ros-iron-geometry-msgs_5.0.1-2024.07.31.10.09_amd64.buildinfo
+ f988681842010cd00e305729573188c10eb40cda 234088 ros-iron-geometry-msgs_5.0.1-2024.07.31.10.09_amd64.deb
+Checksums-Sha256:
+ c38777113e85c965bac693529b517c361f54481a7b6d8a07ee421683c0c872ce 2067984 ros-iron-geometry-msgs-dbgsym_5.0.1-2024.07.31.10.09_amd64.ddeb
+ caddac1812870813b27be418b9ed45078f3c53f97fcf3a5dd6ca50a03dfc1ce5 14794 ros-iron-geometry-msgs_5.0.1-2024.07.31.10.09_amd64.buildinfo
+ 55eee536546b0fa42d32c724cc2050db7895b28f9586876e4962653bcff68873 234088 ros-iron-geometry-msgs_5.0.1-2024.07.31.10.09_amd64.deb
+Files:
+ 4b65e354c57f322c44d33d964bd6a294 2067984 debug optional ros-iron-geometry-msgs-dbgsym_5.0.1-2024.07.31.10.09_amd64.ddeb
+ 5930c69e59ce5579966b62c370bc7760 14794 misc optional ros-iron-geometry-msgs_5.0.1-2024.07.31.10.09_amd64.buildinfo
+ 5259a920cd043a12b347e73a4b70a10f 234088 misc optional ros-iron-geometry-msgs_5.0.1-2024.07.31.10.09_amd64.deb

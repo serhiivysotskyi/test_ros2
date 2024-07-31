@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-sensor-msgs
+Binary: ros-iron-sensor-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.10.13
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-sensor-msgs - A package containing some sensor data related message and service
+Changes:
+ ros-iron-sensor-msgs (5.0.1-2024.07.31.10.13) jammy; urgency=high
+Checksums-Sha1:
+ 0f26fd7cd76a4ce71bb86b433de9d4352907fc08 2914606 ros-iron-sensor-msgs-dbgsym_5.0.1-2024.07.31.10.13_amd64.ddeb
+ bab1802265b2ba0ac0df1bd6a8c110fdbd3d2f65 14889 ros-iron-sensor-msgs_5.0.1-2024.07.31.10.13_amd64.buildinfo
+ a036a6518e67ee7d2963dab5f3d4d01359dc2ac5 361806 ros-iron-sensor-msgs_5.0.1-2024.07.31.10.13_amd64.deb
+Checksums-Sha256:
+ 61de31a47944c47853fdee6dc9a7321294dac19bfcedcd2c24b576a70df8288b 2914606 ros-iron-sensor-msgs-dbgsym_5.0.1-2024.07.31.10.13_amd64.ddeb
+ 966a7102a66f599e9d186cbd73c50421ac1a4b3ffc90dfb3eac83c60af077a75 14889 ros-iron-sensor-msgs_5.0.1-2024.07.31.10.13_amd64.buildinfo
+ 37f76a2b18bb6fb710428f224d5b39fe54daee6534299714ca349908f7ec3a55 361806 ros-iron-sensor-msgs_5.0.1-2024.07.31.10.13_amd64.deb
+Files:
+ 657f281de24bb915f82f9a6d7fd1164c 2914606 debug optional ros-iron-sensor-msgs-dbgsym_5.0.1-2024.07.31.10.13_amd64.ddeb
+ cb9b75c9b9c1d2ee47c210e670bf2324 14889 misc optional ros-iron-sensor-msgs_5.0.1-2024.07.31.10.13_amd64.buildinfo
+ b9edf37873dd010f3e950e585660a5a4 361806 misc optional ros-iron-sensor-msgs_5.0.1-2024.07.31.10.13_amd64.deb
