@@ -1,428 +1,428 @@
 Package: ros-iron-actionlib-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.08
+Version: 5.0.1-2024.07.31.11.14
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-actionlib-msgs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 497
-Depends: ros-iron-actionlib-msgs (= 5.0.1-2024.07.31.10.08)
-Filename: ./ros-iron-actionlib-msgs-dbgsym_5.0.1-2024.07.31.10.08_amd64.ddeb
-Size: 345216
-MD5sum: b8cfc9b2bc6227f205f828c87fdc6cad
-SHA1: f7c396f6c15d297cf2790a18b17ea4b4e125ed3f
-SHA256: 86ace5f2ba1bc1117dd9817d10318216145adc6753d818b4dc45684d4e2ee562
-SHA512: ba2a8372a80e6d2d7e9795ae58c1f855f9139ae5a85489208fc3d4b76ea8cb9ea835dedf07d9f89101565996daa51c99c58a6455c4e12628547878dd594af804
+Depends: ros-iron-actionlib-msgs (= 5.0.1-2024.07.31.11.14)
+Filename: ./ros-iron-actionlib-msgs-dbgsym_5.0.1-2024.07.31.11.14_amd64.ddeb
+Size: 345084
+MD5sum: 580067960f9396350ac8020840257fb7
+SHA1: c10f6e690a0bad3a21b596f5114ec6bc7d775ce5
+SHA256: 7267ec5eb7ae6c687fc80d22a34df90de905ce8b6fef741e0a7e618150837f4c
+SHA512: 53747f2f72df1f8742d461f072dff1dbed578c8aacf9f235df4e61be4f7d4e0944ac13e86bbbd47504c612e7d92e866c197ef0d0a89fdb743c0798fc497d1f73
 Description: debug symbols for ros-iron-actionlib-msgs
-Build-Ids: 190c8eec49bb8ae4b203e692e9cf4b50928a743f 1dfd09a36b02e06e54e62f1b93f753b905c49ec7 3f8ad5451a8a17c8959a096de81b869a7db40032 593b2b3f64073dbf69a248836fe7110b2e1af9a5 5f4098484e40884fdb182627dd09a4be64712f8d 6e69b68ed8a2dc2f1e3235df06d7b8e30bb89725 863da36b8f188558195bf9bb52549e1af1cb23b1 bf96762bd96ab2862e17355f3c6e14b8b8b20d53 c0a334af3bf1c07fb57893cbf6180be953904b79 dab9fb17127433a75cceaac8cd46a5cc951b7639 e6736fe7c0f37ca3e60cb403c547c38ea6eccf44 f33001345655b5b77cf769724e777700710d5fab
+Build-Ids: 0bd61db946757577a77a4acbc98a963968a4dafa 391573b60707cb531675649a516db5a925db27d0 4b8053c7e5977d46d82c2d417619d77c2acd4b2c 5731bb6c0b5cda1d4044fa7e7cda6fcfc5333650 5b1b21a25bcd2968c0177d2db0974120f141be7a 61827cb7e4ed0608d59936497660695ed3538234 6584cad86b0b384f76f8a7d8bed64d152963a9a5 a2a561bf04044d19477896313a76537b5aaac905 c1bb639d554810245064ea6d874c26da13a91d5a e3b12b1849f1cd671f5967d61c3a295ba5a9d280 f0fc28008f24d8fd14738340b51e8f2839776629 f14e1bd506fd769ca1a2b916f3078eb07ebb3e4a
 
 Package: ros-iron-actionlib-msgs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.08
+Version: 5.0.1-2024.07.31.11.14
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 685
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
-Filename: ./ros-iron-actionlib-msgs_5.0.1-2024.07.31.10.08_amd64.deb
-Size: 64716
-MD5sum: 61c6a0ad3bf60eb1d547031f946e7e61
-SHA1: f092df84711632cd6f421b78c2a2fc35925e31f2
-SHA256: dc5703a1bdfaba2b825fd416a16a58881773272f00acec032712245526872a4a
-SHA512: 8cdeb00181f34195d87130038973ff2ee187a702e0cc72e88fc4ff961ca9799cc5c0660bbc98bb8255b633c52fe050107cd487e789a05ef5dfe8741af12de0b8
+Filename: ./ros-iron-actionlib-msgs_5.0.1-2024.07.31.11.14_amd64.deb
+Size: 64732
+MD5sum: 1328546d2e71c982dbec951c495d2954
+SHA1: 12cdfd94fefdf82f5b5ea84eadef2b5611643306
+SHA256: 21ec521adcbf90f7991d1caeb6c8e612d7fed0b37db01295e64279360c6bd9c4
+SHA512: 9a83253750574b52ebbbeaf5c8baccfa00954508efaf379ca991d3617715f276889635c7072db68ca44e0b5b64a9d01ad06a734da0a25dc63fa6413f04285fd4
 Description: A package containing some message definitions used in the implementation of ROS 1 actions.
 
 Package: ros-iron-common-interfaces
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.05
+Version: 5.0.1-2024.07.31.11.12
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 41
 Depends: ros-iron-actionlib-msgs, ros-iron-builtin-interfaces, ros-iron-diagnostic-msgs, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-sensor-msgs, ros-iron-shape-msgs, ros-iron-std-msgs, ros-iron-std-srvs, ros-iron-stereo-msgs, ros-iron-trajectory-msgs, ros-iron-visualization-msgs
-Filename: ./ros-iron-common-interfaces_5.0.1-2024.07.31.10.05_amd64.deb
-Size: 5478
-MD5sum: fcbd09b9b1432a3d278810dfa6732f79
-SHA1: 70a29281c400c805ed074c4091254bc759f83013
-SHA256: f7f65fa6efebe34695c25611c48b623f81295d97f5989fbe6b9c6e490d59da60
-SHA512: 51ea91cb2e8931911a5e726cbf0f51722bd4bf1a8cd04139be27571c1b8ef18be3eb6e581dfd2a1dc2ce615e65b9b95e020c4a228da8a861be36e6953aa9f26d
+Filename: ./ros-iron-common-interfaces_5.0.1-2024.07.31.11.12_amd64.deb
+Size: 5480
+MD5sum: 31508cf4de9d5613adc5abe9aa0d8f86
+SHA1: a812716290d7b1117fd39fdbe15cf9bdbfc23f06
+SHA256: 568ec6aeccbd7808e468db84c193806afa1fceece45bc65e954875eb78407cad
+SHA512: d9b8eb448b85ff62fb64b40a08bcecf4f53c57d916f9cfbd6b1ef627164c86c94dcd9bd58ef4b71dcc619402a6e53435e3615753e9ee82c2e4a4d55838a41c2a
 Description: common_interfaces contains messages and services that are widely used by other ROS packages.
 
 Package: ros-iron-diagnostic-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.11
+Version: 5.0.1-2024.07.31.11.16
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-diagnostic-msgs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
-Installed-Size: 1306
-Depends: ros-iron-diagnostic-msgs (= 5.0.1-2024.07.31.10.11)
-Filename: ./ros-iron-diagnostic-msgs-dbgsym_5.0.1-2024.07.31.10.11_amd64.ddeb
-Size: 1006180
-MD5sum: c775578c76f9d9c6397a4511e12d9959
-SHA1: edab0e6c2d92c708ba071353c113b43431b3a25b
-SHA256: c75c3b7ca4b487f0e276917d1419e816244290727f4147d792329f093bc27edb
-SHA512: dc3032b850c3d482a606ab2d880a5ce89bbd66b8fb34cda21bd5977cadc4d9754bc23e9799d7b146ffae1293cf62ef22da16183728bc9b80b3b84c0aba83af64
+Installed-Size: 1305
+Depends: ros-iron-diagnostic-msgs (= 5.0.1-2024.07.31.11.16)
+Filename: ./ros-iron-diagnostic-msgs-dbgsym_5.0.1-2024.07.31.11.16_amd64.ddeb
+Size: 1006622
+MD5sum: 3f0b1e2f446a2a48d680115963a2e3e8
+SHA1: 07c854a62e5fb6dcccc5ab40ecb0df18ca7adfcd
+SHA256: 8250d58ad199f09f1379b51e1daef6cb5647b491d6387c902e58939e691a50ac
+SHA512: c70030a86b8ebe4cf5579102372a9e3c6bdcfd9810679cf20818576ea0226889c4469049f51d6f1270df6c6cd3b7b3b10105c2ddf357c1acd3f6d62724c7bd69
 Description: debug symbols for ros-iron-diagnostic-msgs
-Build-Ids: 135830bec66f15300a31400010f9794b5c79ad27 21bb58b821d400b8d41a588c3892adb0133d2256 29f6c47f03867126642fcf14fdafeb645dda40fe 3904bce7c390ccdcd46a23514928b6d712c2696f 90fa396389bc606a15f85a20255111a971e8fb28 916090462e9995faa7a06449ede6420d1350bd6d 98230e1301ffc6a4587baaa68ac6b62e3fdb7243 ad53db932df4be8f08fc83dad5e2175511c74e30 b6faa396d753b090021633c081fe7ffdc37c8910 d2214b89ca3dba0b789e37ad55eaa0faaec03859 dffd6b0d2f0f34e1310c962d97fdc051f03da218 e526607f334a5f40275891ac0113972fa2019f6c
+Build-Ids: 3463ba4f231c9b47a30cd1e021feb0566e5d3c7f 557ec439e7a95aea8967ac675b245f930efb200e 817d8aeb39e3e64dfcdce5641a714579d14071f2 90724ffb1f180b3d5f5b7017aaf056e6032bdb83 a0372bd31ccee8717f1e019bc668e01d4a64b9e7 a184211fdb7e09147462960c1e28bb08fb6b0851 ac17d4d5354dafbea54663a64a64abf677d7334d b87633026ebc7332d069b5e234fac7ec583a7f1f cf79c98a5b6a6a057c3e1fb8065097dae3d0bb31 cf9189ba1efffe5094f401fc829bddc31a397f4d e16d07ea919e090bf0f8a545385100d939502af8 ed70b955ba7f53bd59e6469776e794dd4ba614f7
 
 Package: ros-iron-diagnostic-msgs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.11
+Version: 5.0.1-2024.07.31.11.16
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 1538
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
-Filename: ./ros-iron-diagnostic-msgs_5.0.1-2024.07.31.10.11_amd64.deb
-Size: 131170
-MD5sum: 2467a26d4136717f37351c020c6506f4
-SHA1: d9e7f6fe82fae581bfc977cb3917d332313a5674
-SHA256: 9a86a01d797e70debbaad420ffd2e153bb26d1f87b1749fc36b88b949bda9894
-SHA512: ed3ed64f548f9f7eb5eeda67bffa2b5a3f5518989910de3585742086ca3b3f20c58deebeef8ab25b42e3f7a56616502a81f90a0915164f6bd7340c1e484f62d3
+Filename: ./ros-iron-diagnostic-msgs_5.0.1-2024.07.31.11.16_amd64.deb
+Size: 131200
+MD5sum: 325463812f3939f3a21f2c610b4b700b
+SHA1: 518a4223915a761670c949ac3cbfd64452779b4b
+SHA256: 5f56df25cefcce0928efd7daa1bab045864cd995cad0f53491710aed9bf123d3
+SHA512: 254400b8cb3676cacec8c385f8d3682d432ad0c36d727aa9843f48f8b1ac002499fdcf8ee42ecad3c66c960593f228dcabd5060dc1f44e6108834703fdf35e39
 Description: A package containing some diagnostics related message and service definitions.
 
 Package: ros-iron-geometry-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.09
+Version: 5.0.1-2024.07.31.11.15
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-geometry-msgs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
-Installed-Size: 2826
-Depends: ros-iron-geometry-msgs (= 5.0.1-2024.07.31.10.09)
-Filename: ./ros-iron-geometry-msgs-dbgsym_5.0.1-2024.07.31.10.09_amd64.ddeb
-Size: 2067984
-MD5sum: 4b65e354c57f322c44d33d964bd6a294
-SHA1: 71840112cae5257eecf6c5d7492afee1efa32042
-SHA256: c38777113e85c965bac693529b517c361f54481a7b6d8a07ee421683c0c872ce
-SHA512: 74cd1834028917dc098b0868f6e1302205930c90ef68fbcd50c50d5d9e00e22e41c052aeff139829ecf63d42ae8841597c66d13536b873b7970dc68b52b43974
+Installed-Size: 2827
+Depends: ros-iron-geometry-msgs (= 5.0.1-2024.07.31.11.15)
+Filename: ./ros-iron-geometry-msgs-dbgsym_5.0.1-2024.07.31.11.15_amd64.ddeb
+Size: 2067688
+MD5sum: e38e737b3e405940ca9f66ede6ebb6a9
+SHA1: 7645efdae0c61634b9e7e64a3161f1dd1ac20b9a
+SHA256: 943be95a10d5c2be014f5ccf7526eaf2b96e7e7566b6fdb0ac5c38bb4b7e9428
+SHA512: 19d0863e02b913cec1015c86ba5d61fde2e8c310f234db4a5d7bdc05cc0aea747c4cd9e87aed9016954c88ea65a997cfc0220aea898414ee1a65a0d1b92fd6d5
 Description: debug symbols for ros-iron-geometry-msgs
-Build-Ids: 09ff4c03d9ba98213a0b039e9b3be087bac09c0a 172b66376d766bc4f047fad15d5d3c2fc99848c1 22b54b1be791bfe4dacdc78c6c1a10007dc4ddd4 6ded7e30567d2e30608a41420c6187f6ae63f456 94f6b3bee7e3a00cab81d145c4ee79fbd86184d1 9c771d0256142c84759712124dafe966bae064dd aa79107a02a4d96db81227223a1c03e566295ca1 d1c6e3e7e2fb7b9348a05a789bb23d93b38fb6fc d8023aa12b647cf2eb9d539d783a108efe6d04fa de64a30a7809b2431273fb610f9cc9a812c124f8 de902b5941f90653926916fa805e3367793958aa eb2f578dbc18ea23a273ad2487cb9d05b2136ca2
+Build-Ids: 1cf4969d8422186df390f4cb82abeb3cd879c008 49420531ef698679f29cb99bbc3b11c4a617966c 4d515f3e7d13950284fcc5e2691fafe86e80d113 53b2333c670d235b16d2c6563ce01f94afcb8c06 71b139d446416aa70bf1102c318035a92201503e 7f0a54031bf0c0aa5a421ec01b2b40af355f29b3 81462980140ce110cc516277490cb3fe2b425a81 9169836a3fac812491cded63426bf330a7f5e2b0 9a62a8f5a6501fb8684300fec52058d2979c4198 b9051267a56b62daf2e85c1c8585eaaf96f9d5db c857a4bf0cb40ef54d5dbaa2c4099ffe89f76a04 d6a819636aad74f59616abfcfeda72ec424316e7
 
 Package: ros-iron-geometry-msgs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.09
+Version: 5.0.1-2024.07.31.11.15
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 3871
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
-Filename: ./ros-iron-geometry-msgs_5.0.1-2024.07.31.10.09_amd64.deb
-Size: 234088
-MD5sum: 5259a920cd043a12b347e73a4b70a10f
-SHA1: f988681842010cd00e305729573188c10eb40cda
-SHA256: 55eee536546b0fa42d32c724cc2050db7895b28f9586876e4962653bcff68873
-SHA512: f475be40ab42bf6bda07de57ec98cfae476b69e6c35486d234352048be13a91e6c9e8b07fd9617d0845f84cd5f8421a053ff689ac404f5a1663fa34fa23849c5
+Filename: ./ros-iron-geometry-msgs_5.0.1-2024.07.31.11.15_amd64.deb
+Size: 234162
+MD5sum: 723b12e4aea8db8c40f7763b1e5df9fc
+SHA1: 81adab6dc14f9336980da446bc7773d8eecb333c
+SHA256: 7d8b1c2af1e24eaf07e378661a5a08bcc5e522c1ba7cd95aa2360518c9863151
+SHA512: 932f2d50ed8efdfc1e90f98b555a10da5f30a485449f8c696172697ddeef6a683015c1f1f95a2557c707b103bfd5d44354a2fc1c4f55accaaa33157201e7760d
 Description: A package containing some geometry related message definitions.
 
 Package: ros-iron-nav-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.12
+Version: 5.0.1-2024.07.31.11.17
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-nav-msgs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 2140
-Depends: ros-iron-nav-msgs (= 5.0.1-2024.07.31.10.12)
-Filename: ./ros-iron-nav-msgs-dbgsym_5.0.1-2024.07.31.10.12_amd64.ddeb
-Size: 1666480
-MD5sum: 1e20b1a4a64eb6171574ddb9cc378b1b
-SHA1: 76ada9bbdb8fe2594ed586c1666f4e245ba18a35
-SHA256: b2609e885f70bd0ff8d5dca994b529db904c8581ab7eda23d926d31efb373095
-SHA512: 3f48fa83a3a79a4d78bb64841910b799f0c0d582c78f5386b422b613b4c6826970f54bb2357a26d65e64ea93dd9ea762018bdd5ec395486db884dbf252aeab32
+Depends: ros-iron-nav-msgs (= 5.0.1-2024.07.31.11.17)
+Filename: ./ros-iron-nav-msgs-dbgsym_5.0.1-2024.07.31.11.17_amd64.ddeb
+Size: 1666232
+MD5sum: 2c9f040db354476645c9372a161da288
+SHA1: 08843764760c7385b222fc5ac953deafae43ee2a
+SHA256: 59d0ec5a31162196ee66415ce284550d19716054c2324e2d42f50c04a352d3fd
+SHA512: 7346477556548b0ca3b4c57f696ce630e1dd9da9a327525d543f3105446b41acb2bf8fa19a8ce03a91b8221e5c87b9bb16ed614f39b1ca45fa85878b84235f80
 Description: debug symbols for ros-iron-nav-msgs
-Build-Ids: 422fcb29c5eef58da76efa78d3f04b5b766eddc0 5f0201166a026505955a9eb6576f7e3095f90d61 69f068f940214bbd8d79776594fe5a001a85d485 77920529e1e6cc0b1d6e5b3a4f5e2438e8341015 946f5d9a94f8dd783225cccbb998d523a46460c1 9e6099ba5bb110e6f1d82cc9f6e50dcbc3f4db11 a00310d3a216f09434fd9db845b7f4ae0ac502f8 a1cddf05f622137193e83bb32c79df0004759e1d a259fad1abde9826bb690d450d8433194a0c0028 e28b297e27a0804b4141b9aa44d829add5dbc525 f899a94e8a826f1361b1112e4423334c8f30ffbd fc7d8eb9a97a763357e406658e5e0010e9624b66
+Build-Ids: 0c138ad3cfef8b1836421b087acad961cc727362 0fe172e02ab925b355ea916e14d286faa7fa1ce8 25ea42f3d8521525dcfa2b9c150422d15f913d2f 29a61f80fa8798358686f1eea021a6dd5502e886 2e6e6c94342e1f671412713ab2cd7e23b35c27c0 86bfe90da5c582d1f597ad6b81c976c9c86f635f 8b5d31b21325e79867c4bfcd60189c2298f48825 91a9a3855a577aee208b4f5deb092c27e4d4f857 983485d70cac329505008c280a103e4089eda4d4 c8b0237a8882717d6f061cc73013008dc1b97b61 f4b5e230413d9329d309f2c6898f7251bb38856f fc887c0e423f0ca75e749a9d15ede71119c4f66e
 
 Package: ros-iron-nav-msgs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.12
+Version: 5.0.1-2024.07.31.11.17
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 2633
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
-Filename: ./ros-iron-nav-msgs_5.0.1-2024.07.31.10.12_amd64.deb
-Size: 202102
-MD5sum: ee3934cb6c5e13e567a492e61c8280d9
-SHA1: 097a67653e79ca88ff51f4a0bf83c553e7a79ac5
-SHA256: 0090dd2b0d66199a8c52dcd4ff86c9ac038bb028619a196a1cbd5b4ab137ae0f
-SHA512: 6fbda1d9fbb06acc44cea3a5a1dbcca40caea40b054d12614cc29a1b7c1413b5d62ebcd0da23623ce15e2cb8e267a9f51c3b5b3ff4bdcef85ca64d1598d52077
+Filename: ./ros-iron-nav-msgs_5.0.1-2024.07.31.11.17_amd64.deb
+Size: 202050
+MD5sum: e64c99eb89d2ee3c2ac13f0520b325f8
+SHA1: 9f371aaa7fbad47f472791bb1abab58e8bf59ab0
+SHA256: ab1a566fb213a27bdf89e76602d0e775368559edc6cf51dba903b7a843aa512f
+SHA512: 406f3f8cb93c30d2263b0e5719a40537bfc26b5a8eedc2865b4bcbe5fc1ff3245d12ee29572a0597f7bfc723f2454002e90102c32ee4906be6800e702e910fd3
 Description: A package containing some navigation related message and service definitions.
 
 Package: ros-iron-sensor-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.13
+Version: 5.0.1-2024.07.31.11.18
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-sensor-msgs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
-Installed-Size: 3807
-Depends: ros-iron-sensor-msgs (= 5.0.1-2024.07.31.10.13)
-Filename: ./ros-iron-sensor-msgs-dbgsym_5.0.1-2024.07.31.10.13_amd64.ddeb
-Size: 2914606
-MD5sum: 657f281de24bb915f82f9a6d7fd1164c
-SHA1: 0f26fd7cd76a4ce71bb86b433de9d4352907fc08
-SHA256: 61de31a47944c47853fdee6dc9a7321294dac19bfcedcd2c24b576a70df8288b
-SHA512: 2749cd749ef9c57c6e5597940d92315d157379e01ca1d480663fc286d62e82f0e487c5ca0e25231705ebad0dc6f08a59fc7bf22244912f5fe4430328ed86ded8
+Installed-Size: 3808
+Depends: ros-iron-sensor-msgs (= 5.0.1-2024.07.31.11.18)
+Filename: ./ros-iron-sensor-msgs-dbgsym_5.0.1-2024.07.31.11.18_amd64.ddeb
+Size: 2914762
+MD5sum: 38ac218cd953c20dc5032cf7d3b95e5a
+SHA1: 3caac4b01389351363b3a1262124926b6f0eefbe
+SHA256: c1f091b520c1de31fc58046ea925b6939d242a818c01d865d44cc7218f8dcf07
+SHA512: 53fa57e03b6f07686c11903b56e5a5fe0f2119c5d9df727b2313963dedd8a861b40fcbd4dd8d543f72b0cf8cb696f7e3a65eab4191c574d4e42c3b9cb622c770
 Description: debug symbols for ros-iron-sensor-msgs
-Build-Ids: 08f6cef3161fa941e4fe8d3fae42bd78a1e3cc03 09b040d5cbbddaa08915a29ec4e8a880931e0df6 3830a82d3a47ef22c8b946bed5d2cc020e952f85 8286fdbdec82a4c206b9f620ffd9d2cfedd23918 82a260db7c173282030ecaeb77b383746a80fe3b 871dfe8087940235fd47c19e2962e1aa71d7e2bf d559015de1ead7eef2b3c068503c4b1e34ebd7ad d6849305fc7a0dfa3348ba281e929675f1904e3f e83090b87db278de1ba26e28c9c77419ab60c892 edc8f6fba243e6736cc238c19b9809e6bf094d14 f882d7d5c999ac3e351bca5a9631a85a97590ffa f928d84336d7de1b8747c60e22c925a9420c08cc
+Build-Ids: 01cf35cec1bc574cbd063b936cbc8c578afcd6c1 0684fbb331709e5d960c29e04226d0d1a30c211d 0c09a6af4a8e65a3188fb28fcebfbc208e4da288 3d26bdada5a3891c95ae2e9a8b7f628670716498 616ba687b31acb51da821169d83aaee198f7a01f 7a2b7a600bd4675cd44f5205587144bdc9d68b38 806c1f532c22a64bf1d45e6f2ef887b185c0cd3e 935e66b82aafd1be17774ac6f696d57734471aa6 9af81828a6b41d4970f3c5dd728b1d081a131714 9ee0efab28fd45cffed9e32b7e8b12a97d12b47d e19f8aca269fbf7edd9a9440ffd4af0e416d8517 f82f6e826b2a4ccd80d43e6fbb542818a2854dd1
 
 Package: ros-iron-sensor-msgs-py
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.06
+Version: 5.0.1-2024.07.31.11.12
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 64
 Depends: python3-numpy, ros-iron-sensor-msgs, ros-iron-std-msgs
-Filename: ./ros-iron-sensor-msgs-py_5.0.1-2024.07.31.10.06_amd64.deb
+Filename: ./ros-iron-sensor-msgs-py_5.0.1-2024.07.31.11.12_amd64.deb
 Size: 13100
-MD5sum: abc15cc4a0891be21eb3f1fe11b80505
-SHA1: cf83db0729631dc534fdba240a8999510453c1d1
-SHA256: 2bb559b0c0a107661a2336d9208f7ec9c583ae2f4f4000bfa1d1ea4f99fc96dc
-SHA512: 44f727aed13f9a21f5dd361fc62304da56d255c51fbbc202f81efa8ff453c2cdb40b6f64f06f2674ee466789ea567eb6b1724253fba270d56b59a701ccac3753
+MD5sum: c48556d0ddc6f8491a9327ad10cd9997
+SHA1: 6dff5bf0f8136281b7fa324755c9dcf875d58349
+SHA256: 3a85f4f1d613cff12b5d72efe8643641429496a6944492e12bff0051c62c77ff
+SHA512: 112695beb35f9e5f480ee98e857af1a814b87aa6a57500e38b9dc301a9b4adbcde8d267608dd8861000e2bb93cf58ef8862dcc720543b79fee2dcd59456f703f
 Description: A package for easy creation and reading of PointCloud2 messages in Python.
 
 Package: ros-iron-sensor-msgs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.13
+Version: 5.0.1-2024.07.31.11.18
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 4924
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
-Filename: ./ros-iron-sensor-msgs_5.0.1-2024.07.31.10.13_amd64.deb
-Size: 361806
-MD5sum: b9edf37873dd010f3e950e585660a5a4
-SHA1: a036a6518e67ee7d2963dab5f3d4d01359dc2ac5
-SHA256: 37f76a2b18bb6fb710428f224d5b39fe54daee6534299714ca349908f7ec3a55
-SHA512: 55b8abbf6460689771d63b97bd05066c3531cb1058f90f1d1fa127a032fde5e61403c703a9f8e9016bb61fc58d5a3f91c6e381b56471adf5993d97f26d018cc2
+Filename: ./ros-iron-sensor-msgs_5.0.1-2024.07.31.11.18_amd64.deb
+Size: 361818
+MD5sum: 8eb3ec13b4832c6a3724e5d8eb57433b
+SHA1: 8eeb6351dd9305771281654127069784dcd1ca2d
+SHA256: 1b4167e9c8dd3827af3b2abc78f95f20851ae5d3304caab962bc22aeeab0b34f
+SHA512: f29a2b104e348187363d22ee2735510add437fd573075399e2e19fea160f213018ca011fe6311a931ac6a5b4435a2f0f5fc9c5fc6a32bcddb2885807aced2703
 Description: A package containing some sensor data related message and service definitions.
 
 Package: ros-iron-shape-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.15
+Version: 5.0.1-2024.07.31.11.19
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-shape-msgs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
-Installed-Size: 598
-Depends: ros-iron-shape-msgs (= 5.0.1-2024.07.31.10.15)
-Filename: ./ros-iron-shape-msgs-dbgsym_5.0.1-2024.07.31.10.15_amd64.ddeb
-Size: 415588
-MD5sum: caa36b2410f556102692d18dd2e5aa4a
-SHA1: eff546b615fe6e370355d5b23962886e5d9dd777
-SHA256: f27dda5ea309f1ad93a8147204b55ef24ea5eef6b69fc98cc1c9d06b4629cb59
-SHA512: 8b01d60aa270002b055cbcce8e7226c3ed66240c4dac6f69842c2a0808a36d2f382ab7baad1523d1c463246334933cf386334bdb7e2af1e73f64d93ab42aa2bb
+Installed-Size: 596
+Depends: ros-iron-shape-msgs (= 5.0.1-2024.07.31.11.19)
+Filename: ./ros-iron-shape-msgs-dbgsym_5.0.1-2024.07.31.11.19_amd64.ddeb
+Size: 415626
+MD5sum: 5f93b7a4356f84f8dec713e3c2b91262
+SHA1: 9799067987937dfdda8ef923477995260f30dd2d
+SHA256: 269e95732d7cc7a20b6a9a7cb19caa487f6710d89df67b3a011ff138e4f7ce0d
+SHA512: e0228e4382c34693bc5a3a8814977eff083d00264cebd182770d17e2ce5410f2f0939c997e37f37478615b739559539c3301af9f794c66536ff86d0bcac97244
 Description: debug symbols for ros-iron-shape-msgs
-Build-Ids: 0b36e3ea4d59a0e7fd7d7eb5484f3d71fd6b0ae3 305ccb03787baed266452a0ee96cf2f790b6c0ea 4ed0a63f83585710bab70105506e1df7a2e80c29 5d2832f87734526a0879420b1bf787efbb0ac4ea 8488b021fc1fb627f1b61bd4adae693eac355e6d 9ce3ccc81e8fb029a8fcbc52c3eea7f1ee498f2b a33fe160b2ed3081b7856f74d2d2a14970dccf41 a6759dbd1b80addad122ab8fb6f5fb0a08281222 dce7088302ce09f73cca30198ff55a09a4317335 e09e704665a4b5356750046ac8475a8c214e0b34 eb3f218568ffa7463367178542a587dd8d964754 f2481ad5a9e1c88efc0ca5fee5faa0c04c2fed63
+Build-Ids: 10a763833efc294316daaec77471c246473b508e 578dfa78a471ea2b6ecccfb25c6a3e46fe31ef5f 6f2070ea54770bfa67146b5f2a47535a7458ff3b 6ff1c4788fd214f2cf8202379256ef41ca68b920 7e7f1061b4dab2a2739d16e4e3452db8b3ae5c9e 807bafd2ca206177571548f7ddfa1b7be0bd5add 90903459040928d05841cf606b8d12a67246277a bb0bcda15d3f8493a0eea9bbbfd2d5141c81dd8e c461a02394536055dc4bdc018e123f97930817fb cfad92975969fb48490625e0aca7a39eafca7c0d df60f3fcc4d06fa666f265d66bfbfad021e8528c df902c1a80df5554a75628efc5a7fecae2a3e7f0
 
 Package: ros-iron-shape-msgs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.15
+Version: 5.0.1-2024.07.31.11.19
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 823
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime
-Filename: ./ros-iron-shape-msgs_5.0.1-2024.07.31.10.15_amd64.deb
-Size: 75970
-MD5sum: 86248ec9acacb892b2de4c38336fc413
-SHA1: 4220ef19a37d4b0ecb68497c09dc29b6bc961ed2
-SHA256: 2e7f13f0c55636bf0810465af1c1e8a8f630f24006979ef81d81da3387c652b8
-SHA512: 2e5cbded7db51f6cd666964fbeea738087e840d42f7e5a23ad1f246f0ca6f65c57cc1f9ce9e45366a8a7fd9892fb7f4ff26cff795fd602f12ea6caaafd765f61
+Filename: ./ros-iron-shape-msgs_5.0.1-2024.07.31.11.19_amd64.deb
+Size: 75978
+MD5sum: 94ec1be8201be88fc94369535e61cafa
+SHA1: 57cf4bb2bb54aaaa8d48ab9e2331b849879c9ada
+SHA256: e61a70c208f5d9d85aca6d08692fb1c053572e41c1a03f0e51f90e41b36012b9
+SHA512: 591d28b7e635f411c06798744eb9f229a0c4b52e93bf1c52a6c1b6c347f9ca4ab599357df411c148706338d233449393cc45643c079b7cc26bea3e934df43022
 Description: A package containing some message definitions which describe geometric shapes.
 
 Package: ros-iron-std-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.07
+Version: 5.0.1-2024.07.31.11.13
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-std-msgs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 3006
-Depends: ros-iron-std-msgs (= 5.0.1-2024.07.31.10.07)
-Filename: ./ros-iron-std-msgs-dbgsym_5.0.1-2024.07.31.10.07_amd64.ddeb
-Size: 2286834
-MD5sum: 0f784fe628db403cb1bb14bfced81ccc
-SHA1: 88cb261262c819fc40ff4207af61a80236ad71ee
-SHA256: 2acab658540dfcef0c38d111e559a45ffe754a549f16d394e4115d6dbb815f69
-SHA512: 5f946413a9e136ba4408449265cc15ab73595c317fe50cbb76c07b03087bc2276c7d9fe804316511f7971b4b76a1dddde81f5000cee2c4c445186093b1263581
+Depends: ros-iron-std-msgs (= 5.0.1-2024.07.31.11.13)
+Filename: ./ros-iron-std-msgs-dbgsym_5.0.1-2024.07.31.11.13_amd64.ddeb
+Size: 2285948
+MD5sum: 6443aa24e6dd9925b19790b874aced05
+SHA1: 7e1d9d221e985196f33ef07778401867a6795272
+SHA256: 23e2731e341cca8d1a6d56497df3ea3c5c0ff8d1b011dea2747b62cb9731630c
+SHA512: abac274f08e7aaa9e9664945cdc985b064702d0cb0e9d9f6111b343f84965f4e96791a1ca1f681cedbfd71683e06dedb11a8156098d9e9fefddcabb803bdffe1
 Description: debug symbols for ros-iron-std-msgs
-Build-Ids: 29d82d7485c2a95f907b49f807d250b4fcecd6c0 3e453a7bb2799996bb9b21559f20c6bb03a10a6a 4dbdbb6abd1b652928562258cc917de55beecf0d 643d78653b59196dfee171b4431541d44022e5c6 79db1bb6c137a30962bb93fc4b90bfe4628a9a86 8ba36380e11696ee2ea6a2ce9a8904f3ecec8446 a418a1cd07164c33afb7b1c94db147abadd60de1 bdddab237bf44e2e27e6526fd9e4cece5729bfcf d8bb40912ebc944ff0ed28acb766538f690a19b1 f78bfde215df08305cbd60c5b6f739d05bd5ebe5 f8cfa34020e0f9dc06f68a4b7a6a11ae00ff7b02 f98c7d051f173bd9068d26e7dd3b637e3a68e871
+Build-Ids: 2415ae63e4660079d84d6fb04fe006655f6b4d61 29655063b1cf3199b25bf828e6c90b8aaf0dd46d 2bd7c3152529540f2e90f09e78392ace4cbf4c1f 37e5c1e3ecffd3f57473ac61e62e6a5cbb87d426 3e1407791067dbb844ebc85f7d0674c49b8fb3d4 6e46208b12a6cbf9d511dca87b07cb2835bf846b 76ad7b73ae026f4b727533d3b0a4cdb3b051c24d 9849adc76108645011f6b00552b0fbd6f80c3652 99090934da8d25444248d9f911e91cf318ac603b 9e44fb2e8ff9a645c05f429ac6b861e7e4f288d0 b2baa95b96fc5ba2d7d9aa9c7c6d0ce6f180abc0 f91be90f65d2281ef059000f87c777796333e854
 
 Package: ros-iron-std-msgs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.07
+Version: 5.0.1-2024.07.31.11.13
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 3585
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-rosidl-default-runtime
-Filename: ./ros-iron-std-msgs_5.0.1-2024.07.31.10.07_amd64.deb
-Size: 218728
-MD5sum: 68fba93db8d7f0ac2e848cbe81914054
-SHA1: 942b375d4d4ff2ba9528168e102f48cd7ed5897a
-SHA256: 4d39f434fe678a44191001bb7eabbb75bad9ee30ef586c854bfc4da743897c23
-SHA512: df4689221300805e37d131f1cd01e0a48b1bd6ab497686608fbe93773384bc742336493439d7a7e195dc1898cd7879e86377976a01780bd6393271fde92e165e
+Filename: ./ros-iron-std-msgs_5.0.1-2024.07.31.11.13_amd64.deb
+Size: 218706
+MD5sum: ccb58a76db65f111f7651225f8e9eee3
+SHA1: f0795552c9ef54c65784f899279646930f8d2b65
+SHA256: f000f08895aafd1cdb28e30cc1eba4a5eff68c0ff83ffa5f6c216cccca6f692c
+SHA512: a77ac6e98f9e06d40b9f5e96499e06ac306ab7ed4d569a0270811f5fee965dc257e046ad5fed9e9f6e956416f200fb55554b9290e7c92440cdd0808edc1ef84d
 Description: A package containing some standard message definitions.
 
 Package: ros-iron-std-srvs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.16
+Version: 5.0.1-2024.07.31.11.20
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-std-srvs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
-Installed-Size: 971
-Depends: ros-iron-std-srvs (= 5.0.1-2024.07.31.10.16)
-Filename: ./ros-iron-std-srvs-dbgsym_5.0.1-2024.07.31.10.16_amd64.ddeb
-Size: 697264
-MD5sum: 435e2cc7fef2a28aee3378d64adabe4f
-SHA1: edb93db66f3a3af23a7f0e4e4d83e196c133bf77
-SHA256: bcecc29b6071cbcb873a5425b93df1074738263ea933f2917057e2a9365bdbbe
-SHA512: d3bb76af1e050c7537db88bb0307d57c49b8964739efcb98f01866648ad1816ef847341b73dfe7c257c8535b64aa68e1d87a0bf7e7b05c6e09d56d1b174e42b8
+Installed-Size: 969
+Depends: ros-iron-std-srvs (= 5.0.1-2024.07.31.11.20)
+Filename: ./ros-iron-std-srvs-dbgsym_5.0.1-2024.07.31.11.20_amd64.ddeb
+Size: 698176
+MD5sum: b4d888049c315e9d04bbebbcc02bdd4a
+SHA1: 64445869b50701d33dd366ad02d07957ef9c0053
+SHA256: dc468a59137f2e80062b0c0200df7a9c611a01505bf008955a57e315014e4207
+SHA512: 4ef3d75f5087913b8cb4ef11cc58b51c5387e22feac14b02b1c62245c96a1f02582b934c2ac9496984a90e2da2cce82a4af9d36eb75ecf25a6a7da8797bb38a3
 Description: debug symbols for ros-iron-std-srvs
-Build-Ids: 11368113e3ca1a9b7ff060fe7c03fdaf3199cd04 1f86acd0535418a4f7cc4cf7677c0a026ea4dfa0 200afcb6879a3843b165afc12a2fed6caa0c52c0 614af913f1817369f28fe63b024ca94c9c565719 8bab44bade8f29ae90aac7acb7a825430c2cb660 a2ab38470bd543cf666bf3c07ea733ee202af18b ba13927779222c314bde0a9a177fabcee61abf10 e4346e4521971109d8a55318ac5b36e331343a95 f383533b89ae6a27a8b51aa93d8165303960bed7 f551fe757795b8d7322ca3f4052b3cb11a8fe1e7 fc729ce0ede50eff7c065de60a67cfc057f2ddf5 fd55b74fe18d1d6465dbd76b9c5c50e3f63df18d
+Build-Ids: 1f919a14a67123d11f96d8301bbaf986272c8342 2b42c63e15397a28e8fc82e871f7917480cd63b3 5be8f982a3491660b03252363d874e15ddb2ff43 9aae5fcddd2b282396d85e69ac24d8e6dbea03ed a9db393d27bb199eb5d3248c52eef36ee6947ebb c3524b7e3c0bad3d49a0831287aa98af1c60f9d2 c6e1743d36c759197cd7680e3e491341bf65c81c c6e421e56dab290d0bf4f16d0a4e672cac251dcc ca206740eba1a3a26d9bf3fdecb9b7f5e3060d2e fa777d446b66b8c6d4bc6b2ec2f51eaa130dbc1b fc02875cc06f932ce5e9ed213d61079fbc3575f4 fcec825e4213fdf68ae65d02c57d49c2e8c0a27d
 
 Package: ros-iron-std-srvs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.16
+Version: 5.0.1-2024.07.31.11.20
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 1372
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-rosidl-default-runtime
-Filename: ./ros-iron-std-srvs_5.0.1-2024.07.31.10.16_amd64.deb
-Size: 104238
-MD5sum: ae311b65ec57cb84c41b03b43963b070
-SHA1: 2558eb0a6a588e57f13c3f57e20d509efe986d3d
-SHA256: fcce4e2e6085d9d7d8e39cefb34abb3e978dc5fdab8b1c5601d77c8e4dec3d0f
-SHA512: a2bf1ba1697217fb6278d2c8617e6d54fb53dc68147ac068c61d72afa4d395b1399a6c4d815f9e7e226d507427b2eefa2092383533ec2775e6d96e8b7e1dc459
+Filename: ./ros-iron-std-srvs_5.0.1-2024.07.31.11.20_amd64.deb
+Size: 104254
+MD5sum: 037c1dd1c672627043a4b7ba651def36
+SHA1: cf399d6f6e0fa4874a570a72b5c288df98bbb30d
+SHA256: 1d64076cda30b87e3e7a3277cc90e14d3d0b6c7ba75f68fcb22a395608b6e776
+SHA512: bd2afef92afcb5de8e7ab817ef52a61062e7d6b2d400291433d0cf25c237054ef769f029df766aed403579abbcbd3fb3c43a528d96b52c713af07e9a92afa4fb
 Description: A package containing some standard service definitions.
 
 Package: ros-iron-stereo-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.17
+Version: 5.0.1-2024.07.31.11.21
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-stereo-msgs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 287
-Depends: ros-iron-stereo-msgs (= 5.0.1-2024.07.31.10.17)
-Filename: ./ros-iron-stereo-msgs-dbgsym_5.0.1-2024.07.31.10.17_amd64.ddeb
-Size: 175172
-MD5sum: 8babd0ac6a66989457680daa1358571e
-SHA1: 3f784c0237247128a4543f55cee1d24d1928c478
-SHA256: 355cade59896f8b11816a480c4718bb4aeff56173191d9291d335e63878ebae1
-SHA512: 1b02f114294421b1c97dc1c31c84327e2cfa7885689c46a780b7c2ae3c21f05094a1d98a1d59270bf8d379c4eb54496edd6fe81bda392fd5eac7dc31d1104f58
+Depends: ros-iron-stereo-msgs (= 5.0.1-2024.07.31.11.21)
+Filename: ./ros-iron-stereo-msgs-dbgsym_5.0.1-2024.07.31.11.21_amd64.ddeb
+Size: 175090
+MD5sum: 019a7c9eaa4dd2761eb81252923e20d2
+SHA1: 485616928141b019ede336c79008ce711c8f53fe
+SHA256: a7cbf5755fb1d911cf784c23722386f63ff27c7eb1084e5433866130c7a9cbb2
+SHA512: fd3e4275c1936ec0a65b61c538ea4a263905bab031e9c1f21b8d05eb2a666c11ce394f10c48d8a8f3f71791ccb71f90623b055fc47a67180af4502315b9392cb
 Description: debug symbols for ros-iron-stereo-msgs
-Build-Ids: 1d8b6cc27475a68f858afd1a0975f809f2974498 3021dad5eba656ddb8de957ba554094612712ba4 33ce985125b650cef9a57553d7b18d9ff1fa0b76 4901ab271b1fed507e484dcec29dfba20d996d95 801647405f3d8d790ac42e18ec451b41f0dc7ed1 980c28e8201774b71949e2ff45771f8861c0e476 9fcaae3a424d14e340db7011fabceb7afe794d30 b318e6599b5415d48a3413a46a102e16b069444b b7eabe11e5c42cc503b7068f021ee5677c073991 c1ddaab93abf2283087ce2a5044268c093510657 c6753720b78b9ee1d79653617fdcdeeacc9b72b2 e124396753f1f256063f4c0510354bbc37af64da
+Build-Ids: 177eac8610791e230cbe741c6ff30bf7f657d224 1a2ebef9f0832b75b100df6dfb2947ca5ec45384 25e376d69c6aae6e6524148f2e38945e1d9868db 285446f961d238ccafd80e2055b1b9fba95f6e11 5c1a10a4708fad1a9e731c9f9d65861459e61b2e 623eb945f41cdd57c0cce351e6db4edf34ed5387 654dc984a0d6596d9435bd6a76f9e59a93722e07 662db28105d614b078f115d2f499c281de57d764 7084e6ee0bbb97b1ccf87e2a6430d5e52a8a032b 8c08606d75a423a1b32010145400025d495b79df c66b0ae75576bd3eacb9c466c5cd5b8d59bdbb77 e184a6d36904a0bdeb6f8f67ed479fa7906519f9
 
 Package: ros-iron-stereo-msgs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.17
+Version: 5.0.1-2024.07.31.11.21
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 487
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-std-msgs
-Filename: ./ros-iron-stereo-msgs_5.0.1-2024.07.31.10.17_amd64.deb
-Size: 46004
-MD5sum: 5290fe6c0fd34be452995afbc335f676
-SHA1: b5d1b9d342978c326eb7162d26651d2063b1e331
-SHA256: b9a0cc1245b9fe11cad1f4046cea0df20f82b32a6a422cc5615aaab4aa2ff3d5
-SHA512: 1599d2a8cc245f6a53cc0d94a011b0dbd9fa830dbcf75f0b6258b4ccfc5763165cb6546e9cceb286f32956f1885021850f48c5d8430e9b450b4ccb0f7fddd5c1
+Filename: ./ros-iron-stereo-msgs_5.0.1-2024.07.31.11.21_amd64.deb
+Size: 46032
+MD5sum: d1a2766942f568c496e4da6038d04de6
+SHA1: ef6ace4c0a777fe97825f312a1860aa3e1903cda
+SHA256: 5563780f5a4a7734481897c1543f14231fff2147dcb5e4fe9d95e7e09aa266de
+SHA512: 3b3ed68a2da7a96e7d168b89caa6bd10ddbc081fe7393cddbe4a659ce2ccfacd28554ac5991ecebf0f594f58bde196e85f2153b419cda567bed79c9552afcb31
 Description: A package containing some stereo camera related message definitions.
 
 Package: ros-iron-trajectory-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.18
+Version: 5.0.1-2024.07.31.11.22
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-trajectory-msgs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
-Installed-Size: 846
-Depends: ros-iron-trajectory-msgs (= 5.0.1-2024.07.31.10.18)
-Filename: ./ros-iron-trajectory-msgs-dbgsym_5.0.1-2024.07.31.10.18_amd64.ddeb
-Size: 624584
-MD5sum: 5d1de33c15a80e83d9f7a8eaaa016699
-SHA1: 60f714e1b4fc625565bdd1abeb4e48d4eeb28263
-SHA256: bb1af90e47ad97a40a62033186b12fc5d97d015f6f16f0e754216686f9fa081a
-SHA512: 8dab1a973b85dd5d65682fb5bd597ed9ca13f2804ff5125e27b03831117ce59c71242f0d6a87744c35b93f84180c6ff75ba79f531625dc946434fd574f933bcc
+Installed-Size: 847
+Depends: ros-iron-trajectory-msgs (= 5.0.1-2024.07.31.11.22)
+Filename: ./ros-iron-trajectory-msgs-dbgsym_5.0.1-2024.07.31.11.22_amd64.ddeb
+Size: 624730
+MD5sum: f63c3ef98b53188734ca0abd86db3694
+SHA1: 09bedf12a3f4682b8e7d42a687bf6e55cfdcc968
+SHA256: ac995efe53e671cd1693e2f4dda8812a4ab2c96eb463714ef53263e67d4e004b
+SHA512: c9f151b27c165daf30456b944b1a7ad981949eb63a0a4f575879fea51e11ec3739c1be3c368a23760313df513bbaf357a66bb1873fa96d8c89e130d0b00bfe0e
 Description: debug symbols for ros-iron-trajectory-msgs
-Build-Ids: 087d3a3fc69f46bc94814522dd096452c365c76a 241bf1a2a0579790c5d6ba5498648d2e85c1dac8 24811a0faf61c9076688de881a8769f0bb40a2e4 310b71ac484b0c3c61347f7c8cb457dbbcd4c05a 463f86bd2076372c9629bcec2d62d44ac7825081 66fafd4ef720df1067a939c2aa4938a796877342 6a282693816c744f32380b4e2d6da4b8d681d5a8 72b0959381e7c9a718976654bceba5dee76c236c 776eee5aa1df53c961abea118ca0cea5535c9507 d77ec8109aab08f13a59f0d9b322e0f008ef01a3 de1ce68ecf50f55919c6571961de7f9b66af7f7e fea81cab4040e1efc250a01f2c1ea7097fc17e36
+Build-Ids: 02c7c8b42556bdd24162edad2f6e6b909d84a36d 125fe0cfde9359261f4e3eac534a8785319a274e 69d5032393a771fdf412bbf1148153ce33a611c9 6b69fe5b175e571739922ba59a8671a5b1b80d17 73e52a34b4d237dbd943602d591de99852809019 7d1d53e95b4f34205d51e534003a1c35e96012c8 b875465a874f0c24eade1f6f4c5f225379471541 bfc5b0fc75056c4e2e9b28c6ef2c376b50a6fa58 d4f72cc7cdb214e831f51b8445f0657c48e31078 eb3b21019e06686638b8a012bc1bd9f75a8df37d f1c819a5eba010e5a07091d76491c64927e89fda f83b5f880231e4b5c296140a18041fc8eedf5cc8
 
 Package: ros-iron-trajectory-msgs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.18
+Version: 5.0.1-2024.07.31.11.22
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 1072
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
-Filename: ./ros-iron-trajectory-msgs_5.0.1-2024.07.31.10.18_amd64.deb
-Size: 93712
-MD5sum: 60f0eb561bd1bf6f35040ce7690ffe54
-SHA1: a971374e10fd4b0458d953f745bfd25508a31972
-SHA256: 418c4dcc85943d118c4c90bc4f12e7f8f47f47737b29d1b7aab454280fe8a06d
-SHA512: 91690561da3c4ae59003781f90a44d48e6ff2456450ded515f4d00906644d2b652f2f687877dcd9161fce91d7aa7e79ddf6e872b97d3228396174fa470a4b727
+Filename: ./ros-iron-trajectory-msgs_5.0.1-2024.07.31.11.22_amd64.deb
+Size: 93648
+MD5sum: 5230920612d760434eadaca2d4d7b50b
+SHA1: cb50d6902f06f1dfc725f402e1eb87bda47c8ac0
+SHA256: 6eb6a02de91a2ce51fea9f83bf3385c886f84b0c447d6de6da7afa074a731d12
+SHA512: c36396c635687e8eb70a9b90689f60939d2298ff8aa0478015dd98df6c2d099b72b6d0837a4986e55a3e24b2673488799cf99753a2a7cb5937dcecd0a335b65a
 Description: A package containing some robot trajectory message definitions.
 
 Package: ros-iron-visualization-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.19
+Version: 5.0.1-2024.07.31.11.22
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-visualization-msgs
 Maintainer: Tully Foote <tfoote@openrobotics.org>
-Installed-Size: 2896
-Depends: ros-iron-visualization-msgs (= 5.0.1-2024.07.31.10.19)
-Filename: ./ros-iron-visualization-msgs-dbgsym_5.0.1-2024.07.31.10.19_amd64.ddeb
-Size: 2360960
-MD5sum: 8f4edc7dacc574f0dc048279890aceaa
-SHA1: f995b1da830923f9a9aa1f9223f660e0dd974297
-SHA256: 6bc3f308fae16159fe5be41229124244cd6c91c0ef4c7bbe1f7ad6dddeac347d
-SHA512: 0a1fb6a9f0693c481629786b727ebfd109848a54a870908dada078c4b5e84531bc570ad8efe260488ffbf617dda5bfb581d2f72db4e9ac31e883d91c78410a12
+Installed-Size: 2897
+Depends: ros-iron-visualization-msgs (= 5.0.1-2024.07.31.11.22)
+Filename: ./ros-iron-visualization-msgs-dbgsym_5.0.1-2024.07.31.11.22_amd64.ddeb
+Size: 2361180
+MD5sum: bb92b64c41b451b78eba0c57b7889496
+SHA1: 2831f8c8df9c0c189c7b54244213890a5415da11
+SHA256: 0b4a9ef51b306064662b02be88b9f96e15717903a13131aab5970c47c157dd8e
+SHA512: eb842a3fc57cc59df186beeeff4d431a3700336eccb5a6f6f23dfb561d60a1b11b1d58722ec9ca714961c4b019b1816c7591f8421355ef498f3f5dfa36e3669c
 Description: debug symbols for ros-iron-visualization-msgs
-Build-Ids: 05dd29e67e3e1724f43106613db9ee14e8fa3632 21a661c81eeb4b764a76dfbfe84de7cdd94fbfc8 3300bb9108ec90b5a5a4a840b1720b26738ef799 46f29fac7b2d5d92fc872604c0a3794a5a7ab30b 606c5306ce85eed78ef1c5190491c976092db756 61228cb8b919bc41663c8c3603286453b837184e 8d3aeb853edd5061cf16c443d5ac35001b1991ba b7d0bfb857e61ca3a18c75e4a768d9aa1dd49b6c c43746326d74aad302b41f00a2014f7f228b9121 de89b492b38c582321a12b87ac07cf1a5236afe6 def835070a053881aa7ab4173886b5cfe7f3b48f f36d79baaf0ad89a4bdb9ae182284eb7a43feb3a
+Build-Ids: 09a3efc93ccaabcf91c18b72ead993d2b1079fd0 0f36db13c1e9671b90f4434d46d916752b72468b 203e8223db133f72a0669e62e014610cd1edc8c4 221b0ffa2488484ea224224d489d75939c49dab8 595b14a5e8fa7637fa1d0bd71f29f1bfbeec4932 6ee9782c0fe2d2a0107c9b8ba0f1732d2f4d4b45 74a2a3969f6b680696af11016f158c4d239aae0e 9bfaafa169bd5a14c831677e7f783ac2718c6d2d 9ef3a100e5ef63b80ca2dbce52fc8d78fc19c003 ad34b413dc5bdd023d0a6e924b64cac724b0b521 aebe63a1e2b9d71120676e876e5d0d1d35e388ba ef60e889247a2e7f47573cec87de733405e6461e
 
 Package: ros-iron-visualization-msgs
 Architecture: amd64
-Version: 5.0.1-2024.07.31.10.19
+Version: 5.0.1-2024.07.31.11.22
 Priority: optional
 Section: misc
 Maintainer: Tully Foote <tfoote@openrobotics.org>
 Installed-Size: 3126
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-std-msgs
-Filename: ./ros-iron-visualization-msgs_5.0.1-2024.07.31.10.19_amd64.deb
-Size: 247542
-MD5sum: 602b240dfeb752f9cd47ecf968ae3472
-SHA1: 59c54033a49f772c30a6a00fab110bbbeaa1378a
-SHA256: ecd77fcca64aaf461a6c8ec354d86453dca0eba29542fa64a319c74d6fdfbfb4
-SHA512: 100efd61ac686fe4fa60fa37b98fff17080845df59c8d3476d8a28161d338026602a733b3c2e54a311c7b5a1015071378569a641773c499b7c386b7692b4f45e
+Filename: ./ros-iron-visualization-msgs_5.0.1-2024.07.31.11.22_amd64.deb
+Size: 247528
+MD5sum: 12b52f065d54a7ef548f241f90328b8e
+SHA1: e6668d7b0d9e6a1bb4cfb776f72583af0bf840b8
+SHA256: 0776ba76bbd5de3b1d89f2ae30cbf314899f75d331a74c4139d4b0789d230586
+SHA512: 1096a80de9492d56c38e0a48486bd46406f3b17f79e59437800d941e94761d5f8a4cb8b0ade9981174da9b088d0b3a65aa758740b27c8b26226255603c0370e5
 Description: A package containing some visualization and interaction related message definitions.
 

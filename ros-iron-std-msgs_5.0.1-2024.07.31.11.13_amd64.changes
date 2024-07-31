@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-std-msgs
+Binary: ros-iron-std-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.11.13
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-std-msgs - A package containing some standard message definitions.
+Changes:
+ ros-iron-std-msgs (5.0.1-2024.07.31.11.13) jammy; urgency=high
+Checksums-Sha1:
+ 7e1d9d221e985196f33ef07778401867a6795272 2285948 ros-iron-std-msgs-dbgsym_5.0.1-2024.07.31.11.13_amd64.ddeb
+ a2870f3463d84fabe2c3d2e10b80bf03fc93573b 14635 ros-iron-std-msgs_5.0.1-2024.07.31.11.13_amd64.buildinfo
+ f0795552c9ef54c65784f899279646930f8d2b65 218706 ros-iron-std-msgs_5.0.1-2024.07.31.11.13_amd64.deb
+Checksums-Sha256:
+ 23e2731e341cca8d1a6d56497df3ea3c5c0ff8d1b011dea2747b62cb9731630c 2285948 ros-iron-std-msgs-dbgsym_5.0.1-2024.07.31.11.13_amd64.ddeb
+ bafc2a3664d476792b3e2666c937298a09e9eaf13753510dc9b0c702a86b8c78 14635 ros-iron-std-msgs_5.0.1-2024.07.31.11.13_amd64.buildinfo
+ f000f08895aafd1cdb28e30cc1eba4a5eff68c0ff83ffa5f6c216cccca6f692c 218706 ros-iron-std-msgs_5.0.1-2024.07.31.11.13_amd64.deb
+Files:
+ 6443aa24e6dd9925b19790b874aced05 2285948 debug optional ros-iron-std-msgs-dbgsym_5.0.1-2024.07.31.11.13_amd64.ddeb
+ 009e2fc059f4c0488d7b7a6350380ac0 14635 misc optional ros-iron-std-msgs_5.0.1-2024.07.31.11.13_amd64.buildinfo
+ ccb58a76db65f111f7651225f8e9eee3 218706 misc optional ros-iron-std-msgs_5.0.1-2024.07.31.11.13_amd64.deb

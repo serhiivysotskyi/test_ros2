@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-nav-msgs
+Binary: ros-iron-nav-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.11.17
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-nav-msgs - A package containing some navigation related message and service
+Changes:
+ ros-iron-nav-msgs (5.0.1-2024.07.31.11.17) jammy; urgency=high
+Checksums-Sha1:
+ 08843764760c7385b222fc5ac953deafae43ee2a 1666232 ros-iron-nav-msgs-dbgsym_5.0.1-2024.07.31.11.17_amd64.ddeb
+ 0432749d4c44126a5c3c8ed6fd1ee9b195fd4264 14801 ros-iron-nav-msgs_5.0.1-2024.07.31.11.17_amd64.buildinfo
+ 9f371aaa7fbad47f472791bb1abab58e8bf59ab0 202050 ros-iron-nav-msgs_5.0.1-2024.07.31.11.17_amd64.deb
+Checksums-Sha256:
+ 59d0ec5a31162196ee66415ce284550d19716054c2324e2d42f50c04a352d3fd 1666232 ros-iron-nav-msgs-dbgsym_5.0.1-2024.07.31.11.17_amd64.ddeb
+ 26c33529f78f80d98ad04b9b1b6cac41c9d595ad90048f8b63b7e3ed716bfa71 14801 ros-iron-nav-msgs_5.0.1-2024.07.31.11.17_amd64.buildinfo
+ ab1a566fb213a27bdf89e76602d0e775368559edc6cf51dba903b7a843aa512f 202050 ros-iron-nav-msgs_5.0.1-2024.07.31.11.17_amd64.deb
+Files:
+ 2c9f040db354476645c9372a161da288 1666232 debug optional ros-iron-nav-msgs-dbgsym_5.0.1-2024.07.31.11.17_amd64.ddeb
+ 5449e8e38f52f9227a3dbd88a2a06066 14801 misc optional ros-iron-nav-msgs_5.0.1-2024.07.31.11.17_amd64.buildinfo
+ e64c99eb89d2ee3c2ac13f0520b325f8 202050 misc optional ros-iron-nav-msgs_5.0.1-2024.07.31.11.17_amd64.deb

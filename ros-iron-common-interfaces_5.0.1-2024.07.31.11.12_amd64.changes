@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-common-interfaces
+Binary: ros-iron-common-interfaces
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.11.12
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-common-interfaces - common_interfaces contains messages and services that are widely
+Changes:
+ ros-iron-common-interfaces (5.0.1-2024.07.31.11.12) jammy; urgency=high
+Checksums-Sha1:
+ 9e3e22ae03a3f3b0d778edd0ac7ad3fc8de70187 10858 ros-iron-common-interfaces_5.0.1-2024.07.31.11.12_amd64.buildinfo
+ a812716290d7b1117fd39fdbe15cf9bdbfc23f06 5480 ros-iron-common-interfaces_5.0.1-2024.07.31.11.12_amd64.deb
+Checksums-Sha256:
+ 894ebd5286ffb6344d70b579749d5651d0b9c109a5addbecaeb955d2f2832c1b 10858 ros-iron-common-interfaces_5.0.1-2024.07.31.11.12_amd64.buildinfo
+ 568ec6aeccbd7808e468db84c193806afa1fceece45bc65e954875eb78407cad 5480 ros-iron-common-interfaces_5.0.1-2024.07.31.11.12_amd64.deb
+Files:
+ fa6e20f73b238a918d83af9d98c9b7c0 10858 misc optional ros-iron-common-interfaces_5.0.1-2024.07.31.11.12_amd64.buildinfo
+ 31508cf4de9d5613adc5abe9aa0d8f86 5480 misc optional ros-iron-common-interfaces_5.0.1-2024.07.31.11.12_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-visualization-msgs
+Binary: ros-iron-visualization-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.11.22
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-visualization-msgs - A package containing some visualization and interaction related m
+Changes:
+ ros-iron-visualization-msgs (5.0.1-2024.07.31.11.22) jammy; urgency=high
+Checksums-Sha1:
+ 2831f8c8df9c0c189c7b54244213890a5415da11 2361180 ros-iron-visualization-msgs-dbgsym_5.0.1-2024.07.31.11.22_amd64.ddeb
+ cd0eafee2ce4fd75de6ca4fea7a3cc7008ce965d 14941 ros-iron-visualization-msgs_5.0.1-2024.07.31.11.22_amd64.buildinfo
+ e6668d7b0d9e6a1bb4cfb776f72583af0bf840b8 247528 ros-iron-visualization-msgs_5.0.1-2024.07.31.11.22_amd64.deb
+Checksums-Sha256:
+ 0b4a9ef51b306064662b02be88b9f96e15717903a13131aab5970c47c157dd8e 2361180 ros-iron-visualization-msgs-dbgsym_5.0.1-2024.07.31.11.22_amd64.ddeb
+ 9c8f76881af3f5955f03d871334f5a813deef95062f5fb64d75a48570ed3df51 14941 ros-iron-visualization-msgs_5.0.1-2024.07.31.11.22_amd64.buildinfo
+ 0776ba76bbd5de3b1d89f2ae30cbf314899f75d331a74c4139d4b0789d230586 247528 ros-iron-visualization-msgs_5.0.1-2024.07.31.11.22_amd64.deb
+Files:
+ bb92b64c41b451b78eba0c57b7889496 2361180 debug optional ros-iron-visualization-msgs-dbgsym_5.0.1-2024.07.31.11.22_amd64.ddeb
+ 34eedb34772c8c907d27804b5ff0040e 14941 misc optional ros-iron-visualization-msgs_5.0.1-2024.07.31.11.22_amd64.buildinfo
+ 12b52f065d54a7ef548f241f90328b8e 247528 misc optional ros-iron-visualization-msgs_5.0.1-2024.07.31.11.22_amd64.deb

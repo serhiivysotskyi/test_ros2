@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-trajectory-msgs
+Binary: ros-iron-trajectory-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.11.22
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-trajectory-msgs - A package containing some robot trajectory message definitions.
+Changes:
+ ros-iron-trajectory-msgs (5.0.1-2024.07.31.11.22) jammy; urgency=high
+Checksums-Sha1:
+ 09bedf12a3f4682b8e7d42a687bf6e55cfdcc968 624730 ros-iron-trajectory-msgs-dbgsym_5.0.1-2024.07.31.11.22_amd64.ddeb
+ eb84a70017a57eeb82441f40d47287e59f226dfe 14858 ros-iron-trajectory-msgs_5.0.1-2024.07.31.11.22_amd64.buildinfo
+ cb50d6902f06f1dfc725f402e1eb87bda47c8ac0 93648 ros-iron-trajectory-msgs_5.0.1-2024.07.31.11.22_amd64.deb
+Checksums-Sha256:
+ ac995efe53e671cd1693e2f4dda8812a4ab2c96eb463714ef53263e67d4e004b 624730 ros-iron-trajectory-msgs-dbgsym_5.0.1-2024.07.31.11.22_amd64.ddeb
+ 4a1e76a24e06e73fdec08b50bd6854eed476c39c0426a5f9d91d03904a9ee00d 14858 ros-iron-trajectory-msgs_5.0.1-2024.07.31.11.22_amd64.buildinfo
+ 6eb6a02de91a2ce51fea9f83bf3385c886f84b0c447d6de6da7afa074a731d12 93648 ros-iron-trajectory-msgs_5.0.1-2024.07.31.11.22_amd64.deb
+Files:
+ f63c3ef98b53188734ca0abd86db3694 624730 debug optional ros-iron-trajectory-msgs-dbgsym_5.0.1-2024.07.31.11.22_amd64.ddeb
+ 97bdbf8f5a221e45ddb5e5521505465e 14858 misc optional ros-iron-trajectory-msgs_5.0.1-2024.07.31.11.22_amd64.buildinfo
+ 5230920612d760434eadaca2d4d7b50b 93648 misc optional ros-iron-trajectory-msgs_5.0.1-2024.07.31.11.22_amd64.deb

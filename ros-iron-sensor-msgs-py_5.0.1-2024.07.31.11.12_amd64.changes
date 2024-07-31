@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-sensor-msgs-py
+Binary: ros-iron-sensor-msgs-py
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.11.12
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-sensor-msgs-py - A package for easy creation and reading of PointCloud2 messages i
+Changes:
+ ros-iron-sensor-msgs-py (5.0.1-2024.07.31.11.12) jammy; urgency=high
+Checksums-Sha1:
+ 629f1c32c5c6f936f1d4000f241c371d4b3ce658 7530 ros-iron-sensor-msgs-py_5.0.1-2024.07.31.11.12_amd64.buildinfo
+ 6dff5bf0f8136281b7fa324755c9dcf875d58349 13100 ros-iron-sensor-msgs-py_5.0.1-2024.07.31.11.12_amd64.deb
+Checksums-Sha256:
+ ac3b8a7b39b1a22d75c1db594a16c7b28920f315c6463bb2f535d152bfa4e1c1 7530 ros-iron-sensor-msgs-py_5.0.1-2024.07.31.11.12_amd64.buildinfo
+ 3a85f4f1d613cff12b5d72efe8643641429496a6944492e12bff0051c62c77ff 13100 ros-iron-sensor-msgs-py_5.0.1-2024.07.31.11.12_amd64.deb
+Files:
+ 3255c500ca6af49ec0bbff1e0aaced5e 7530 misc optional ros-iron-sensor-msgs-py_5.0.1-2024.07.31.11.12_amd64.buildinfo
+ c48556d0ddc6f8491a9327ad10cd9997 13100 misc optional ros-iron-sensor-msgs-py_5.0.1-2024.07.31.11.12_amd64.deb

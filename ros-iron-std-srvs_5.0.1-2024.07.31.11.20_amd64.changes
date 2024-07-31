@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-std-srvs
+Binary: ros-iron-std-srvs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.11.20
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-std-srvs - A package containing some standard service definitions.
+Changes:
+ ros-iron-std-srvs (5.0.1-2024.07.31.11.20) jammy; urgency=high
+Checksums-Sha1:
+ 64445869b50701d33dd366ad02d07957ef9c0053 698176 ros-iron-std-srvs-dbgsym_5.0.1-2024.07.31.11.20_amd64.ddeb
+ 276c8750dbb94439ae03e57cabcc5987c81e1904 14632 ros-iron-std-srvs_5.0.1-2024.07.31.11.20_amd64.buildinfo
+ cf399d6f6e0fa4874a570a72b5c288df98bbb30d 104254 ros-iron-std-srvs_5.0.1-2024.07.31.11.20_amd64.deb
+Checksums-Sha256:
+ dc468a59137f2e80062b0c0200df7a9c611a01505bf008955a57e315014e4207 698176 ros-iron-std-srvs-dbgsym_5.0.1-2024.07.31.11.20_amd64.ddeb
+ ab133e787fc774f02e315163b4d73d893d42cbf39bd218ea07ced56d61e907cd 14632 ros-iron-std-srvs_5.0.1-2024.07.31.11.20_amd64.buildinfo
+ 1d64076cda30b87e3e7a3277cc90e14d3d0b6c7ba75f68fcb22a395608b6e776 104254 ros-iron-std-srvs_5.0.1-2024.07.31.11.20_amd64.deb
+Files:
+ b4d888049c315e9d04bbebbcc02bdd4a 698176 debug optional ros-iron-std-srvs-dbgsym_5.0.1-2024.07.31.11.20_amd64.ddeb
+ e7ae02c1d99b97e45275c482c578cac5 14632 misc optional ros-iron-std-srvs_5.0.1-2024.07.31.11.20_amd64.buildinfo
+ 037c1dd1c672627043a4b7ba651def36 104254 misc optional ros-iron-std-srvs_5.0.1-2024.07.31.11.20_amd64.deb

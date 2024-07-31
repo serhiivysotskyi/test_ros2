@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-actionlib-msgs
+Binary: ros-iron-actionlib-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.11.14
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-actionlib-msgs - A package containing some message definitions used in the impleme
+Changes:
+ ros-iron-actionlib-msgs (5.0.1-2024.07.31.11.14) jammy; urgency=high
+Checksums-Sha1:
+ c10f6e690a0bad3a21b596f5114ec6bc7d775ce5 345084 ros-iron-actionlib-msgs-dbgsym_5.0.1-2024.07.31.11.14_amd64.ddeb
+ f428f67ba52e041e964b6c8e367be8d40b3f297e 14797 ros-iron-actionlib-msgs_5.0.1-2024.07.31.11.14_amd64.buildinfo
+ 12cdfd94fefdf82f5b5ea84eadef2b5611643306 64732 ros-iron-actionlib-msgs_5.0.1-2024.07.31.11.14_amd64.deb
+Checksums-Sha256:
+ 7267ec5eb7ae6c687fc80d22a34df90de905ce8b6fef741e0a7e618150837f4c 345084 ros-iron-actionlib-msgs-dbgsym_5.0.1-2024.07.31.11.14_amd64.ddeb
+ 711a95a93d5bed0cc50a863136baab3e0d242dcd90e57d4ad8f62dc1eda99d8a 14797 ros-iron-actionlib-msgs_5.0.1-2024.07.31.11.14_amd64.buildinfo
+ 21ec521adcbf90f7991d1caeb6c8e612d7fed0b37db01295e64279360c6bd9c4 64732 ros-iron-actionlib-msgs_5.0.1-2024.07.31.11.14_amd64.deb
+Files:
+ 580067960f9396350ac8020840257fb7 345084 debug optional ros-iron-actionlib-msgs-dbgsym_5.0.1-2024.07.31.11.14_amd64.ddeb
+ c9a6606f3194896f3b4263df1bfba474 14797 misc optional ros-iron-actionlib-msgs_5.0.1-2024.07.31.11.14_amd64.buildinfo
+ 1328546d2e71c982dbec951c495d2954 64732 misc optional ros-iron-actionlib-msgs_5.0.1-2024.07.31.11.14_amd64.deb

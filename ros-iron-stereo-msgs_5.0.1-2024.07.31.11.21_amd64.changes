@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 21 May 2024 00:00:00 -0000
+Source: ros-iron-stereo-msgs
+Binary: ros-iron-stereo-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 5.0.1-2024.07.31.11.21
+Distribution: jammy
+Urgency: high
+Maintainer: Tully Foote <tfoote@openrobotics.org>
+Changed-By: Tully Foote <tfoote@openrobotics.org>
+Description:
+ ros-iron-stereo-msgs - A package containing some stereo camera related message definitio
+Changes:
+ ros-iron-stereo-msgs (5.0.1-2024.07.31.11.21) jammy; urgency=high
+Checksums-Sha1:
+ 485616928141b019ede336c79008ce711c8f53fe 175090 ros-iron-stereo-msgs-dbgsym_5.0.1-2024.07.31.11.21_amd64.ddeb
+ ea979f044d0b8ab8b975f3cbce6f840eb9b9149d 14872 ros-iron-stereo-msgs_5.0.1-2024.07.31.11.21_amd64.buildinfo
+ ef6ace4c0a777fe97825f312a1860aa3e1903cda 46032 ros-iron-stereo-msgs_5.0.1-2024.07.31.11.21_amd64.deb
+Checksums-Sha256:
+ a7cbf5755fb1d911cf784c23722386f63ff27c7eb1084e5433866130c7a9cbb2 175090 ros-iron-stereo-msgs-dbgsym_5.0.1-2024.07.31.11.21_amd64.ddeb
+ 22c9665d10d52555516abdc24af595d2f1906c42c3697bc3e45046a591430ba9 14872 ros-iron-stereo-msgs_5.0.1-2024.07.31.11.21_amd64.buildinfo
+ 5563780f5a4a7734481897c1543f14231fff2147dcb5e4fe9d95e7e09aa266de 46032 ros-iron-stereo-msgs_5.0.1-2024.07.31.11.21_amd64.deb
+Files:
+ 019a7c9eaa4dd2761eb81252923e20d2 175090 debug optional ros-iron-stereo-msgs-dbgsym_5.0.1-2024.07.31.11.21_amd64.ddeb
+ 6adf5858fe99a5c4076115dc956bbf7d 14872 misc optional ros-iron-stereo-msgs_5.0.1-2024.07.31.11.21_amd64.buildinfo
+ d1a2766942f568c496e4da6038d04de6 46032 misc optional ros-iron-stereo-msgs_5.0.1-2024.07.31.11.21_amd64.deb
