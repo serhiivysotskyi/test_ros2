@@ -1,5 +1,6 @@
 Source: test_ros2
 Section: release-13.1.2
+Version: 1.0
 Priority: optional
 Maintainer: Serhii Vysotskyi <test@gtest.com>
 Build-Depends: debhelper (>= 9)
